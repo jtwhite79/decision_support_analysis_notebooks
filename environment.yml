@@ -1,0 +1,19 @@
+name: pyclass
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - pyproj>=2.0
+  - pyshp
+  - jupyter
+  - notebook
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - pytest
+  - pip
+  - pillow
