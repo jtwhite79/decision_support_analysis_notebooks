@@ -90,12 +90,15 @@ If you can start the jupyter notebook instance successfully, please open these t
       - Jacobian matrices/response matrices
       - Covariance matrices
       - Residuals (innovations) and weights
+      - Ensembles and realizations
   - The PEST(++) model interface
     - Template files
     - Instruction files
     - Model run command
   - The PEST(++) control file
     - Scary!
+    - Parmaeter data entries
+    - Observation data entries
     - Version 2
     - Fixing problems
   - In class exercise: add a parameter to the PEST interface
