@@ -96,10 +96,10 @@ If you can start the jupyter notebook instance successfully, please open these t
     - Instruction files
     - Model run command
   - The PEST(++) control file
-    - Scary!
+    - Control data entires
     - Parmaeter data entries
     - Observation data entries
-    - Version 2
+    - Version 2 example
     - Fixing problems
   - In class exercise: add a parameter to the PEST interface
   - Run management
