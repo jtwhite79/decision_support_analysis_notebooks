@@ -35,7 +35,7 @@ Step-by-step instructions:
 
 1. Clone the course repo (first sign up for github if you haven&#39;t before). On windows, open git bash, navigate to the location where you want to course materials to be, then type:
 
-git clone https://github.com/jtwhite79/decision_support_analysis_notebooks
+`git clone https://github.com/jtwhite79/decision_support_analysis_notebooks`
 
 This will create a local copy of the git repository in a directory called decision_support_analysis_notebooks.
 
