@@ -41,19 +41,19 @@ This will create a local copy of the git repository in a directory called decisi
 
 1. If you already have Anaconda Python installed, you can skip this step. If not, please install Miniconda from this link: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html) Be sure to get the python 3.X and the 64-bit links for your particular operating system. Also, experience has shown that it is best to install miniconda/anaconda not on C: since IT likes to lock down file access to C:, so if you have separate partition or drive, installing miniconda/anaconda there can make life easier.
 
-1. If you are on Windows, from the start Menu, open an Anaconda prompt and navigate to the course materials repo you cloned above (linux and mac, just standard terminal). Then type conda update conda. Then type
+1. If you are on Windows, from the start Menu, open an Anaconda prompt and navigate to the course materials repo you cloned above (linux and mac, just standard terminal). Then type `conda update conda`. Then type
 
-conda env create -f environment.yml.
+`conda env create -f environment.yml`.
 
 This will create an anaconda environment called pyclass that is configured with all the python dependencies needed for the class. (Note, we may install a couple other things during the class as well)
 
 To start up the jupyter notebook:
 
-- Windows: open the Anaconda prompt and type conda activate pyclass
-- Mac/Linux: open a termainal and type conda activate pyclass
-- Then navigate to course materials repo and type jupyter notebook
+- Windows: open the Anaconda prompt and type `conda activate pyclass`
+- Mac/Linux: open a termainal and type `conda activate pyclass`
+- Then navigate to course materials repo and type `jupyter notebook`
 
-If you can start the jupyter notebook instance successfully, please open these two notebooks and select cell -\&gt; run all to make sure your installation is working (in order and wait for the first one to finish!):
+If you can start the jupyter notebook instance successfully, please open these two notebooks and from the `cell` menu, select `run all` to make sure your installation is working (in order and wait for the first one to finish!):
 
 - setup\_transient\_history.ipynb
 - setup\_pest\_interface.ipynb
