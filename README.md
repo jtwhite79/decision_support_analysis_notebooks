@@ -35,9 +35,9 @@ Step-by-step instructions:
 
 1. Clone the course repo (first sign up for github if you haven&#39;t before). On windows, open git bash, navigate to the location where you want to course materials to be, then type:
 
-git clone https://github.com/jtwhite79/decision\_support\_analysis\_notebooks
+git clone https://github.com/jtwhite79/decision_support_analysis_notebooks
 
-This will create a local copy of the git repository in a directory called decision\_support\_analysis\_notebooks.
+This will create a local copy of the git repository in a directory called decision_support_analysis_notebooks.
 
 1. If you already have Anaconda Python installed, you can skip this step. If not, please install Miniconda from this link: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html) Be sure to get the python 3.X and the 64-bit links for your particular operating system. Also, experience has shown that it is best to install miniconda/anaconda not on C: since IT likes to lock down file access to C:, so if you have separate partition or drive, installing miniconda/anaconda there can make life easier.
 
